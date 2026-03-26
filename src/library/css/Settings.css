@@ -1,0 +1,119 @@
+/* set browser defaults for the app */
+* {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-family: Trek;
+    margin: 0px;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.Settings {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* canvas */
+.canvas {
+    width: 100%;
+    height: 100%;
+    margin-top: -5px;
+}
+
+.headline {
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: -720px;
+    background-color:transparent;
+}
+
+.headline label {
+    background-color:transparent;
+    color:gold;
+    font-size:64px;
+    font-style: italic;
+    text-align: center;
+    margin: 5px 0px 5px 0px;
+}
+
+.options-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 65%;
+    background-color:transparent;
+ }
+
+.options-container button {
+    background-color: rgba(255, 215, 0, 0.50);
+    color: black;
+    font-size: 36px;
+    margin: 5px 5px 5px 5px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    font-style: italic;
+    font-weight:lighter;
+    cursor:pointer;
+    transition: 0.25s;
+    text-align:center;
+    width: 300px;
+    height: 45px;
+}
+
+.options-container button:hover {
+    background-color: gold;
+    color: black;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    font-style: italic;
+    font-weight:bolder;
+    transition: 0.25s;
+}
+
+.buttonsettings-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color:transparent;
+    margin-top: 35px;
+}
+
+.buttonsettings-container button {
+    background-color: rgba(255, 215, 0, 0.50);
+    color: black;
+    font-size: 36px;
+    margin: 0px 5px 0px 5px;
+    padding: 5px 25px 5px 25px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    font-style: italic;
+    font-weight:lighter;
+    cursor:pointer;
+    transition: 0.25s;
+}
+
+.buttonsettings-container button:hover {
+    background-color: gold;
+    color: black;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    padding: 5px 25px 5px 25px;
+    font-style: italic;
+    font-weight:bolder;
+    transition: 0.25s;
+}

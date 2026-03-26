@@ -1,0 +1,98 @@
+/* set browser defaults for the app */
+* {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-family: Trek;
+    margin: 0px;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.About {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.headline {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.headline h1 {
+    background-color: transparent;
+    color: gold;
+    font-style: italic;
+    font-size: 64px;
+}
+
+.article-container {
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    height:75%;
+    background-color:transparent;
+    justify-content: center;
+    align-items: center;
+}
+
+.article-container p {
+    margin: 5px 0px 5px 0px;
+    background-color:transparent;
+    color:gold;
+    font-size:36px;
+}
+
+.about-button-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.about-button-container button {
+    background-color: rgba(255, 215, 0, 0.50);
+    color: black;
+    font-size: 36px;
+    margin: 0px 5px 0px 5px;
+    padding: 5px 25px 5px 25px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    font-style: italic;
+    font-weight: lighter;
+    cursor: pointer;
+    transition: 0.25s;
+    width: 20%;
+    margin-left: auto;
+    margin-right:auto;
+    border: 1px solid transparent;
+}
+
+.about-button-container button:hover {
+    background-color: gold;
+    color: black;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    padding: 5px 25px 5px 25px;
+    font-style: italic;
+    font-weight: bolder;
+    transition: 0.25s;
+    border: 1px solid transparent;
+}
+
+.canvas {
+    width: 100%;
+    height: 100%;
+    margin-top: -5px;
+}

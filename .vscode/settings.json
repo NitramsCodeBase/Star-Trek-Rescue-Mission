@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/f99b3bb3-c807-4212-8687-605ee63e4f75/resourceGroups/appsvc_linux_centralus_basic/providers/Microsoft.Web/sites/StarTrekRescueMission",
+    "appService.deploySubpath": "."
+}
