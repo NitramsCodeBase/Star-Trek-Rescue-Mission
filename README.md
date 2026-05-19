@@ -1,40 +1,34 @@
-## Installation
+# Star Trek Rescue Mission
 
-When you have cloned the repository to your local filesystem, please run at the root of this project :
+“Star Trek Rescue Mission” is a small browser-based game developed as a personal fun project using modern web technologies. The game was written in **TypeScript** and built with **Node.js** and **Vite** to provide a fast and lightweight development environment.
 
-npm install --template typescript
+The project focuses on creating a simple interactive gameplay experience inspired by classic science fiction themes and retro-style browser games. In addition to programming the game logic, the project also included the integration of graphical assets, sound effects, and user interface elements.
 
-## Running the game
+## Features
 
-To execute the NodeJS application, please type at the prompt the following command :
+- Browser-based gameplay
+- Developed with TypeScript
+- Fast development environment using Vite
+- Node.js project structure
+- Interactive game mechanics
+- Custom graphical assets
+- Sound and audio integration
+- Lightweight and responsive game design
+- Event-driven game logic
+- Keyboard-based player controls
 
-npm start
+## Technologies Used
 
-## This project is under development and maybe it will take some time to be finished.
+- TypeScript
+- Node.js
+- Vite
+- HTML5
+- CSS3
+- JavaScript
+- Audio and graphic asset integration
 
+## Background
 
-This project has been developed using following tools:
+This project was created as a creative side project to explore browser game development and modern frontend tooling. The main focus was to gain practical experience with TypeScript-based game logic, asset management, and interactive web application development.
 
-    ReactJS
-    TypeScript
-    HTML 5
-    CSS 3
-
-This project is being developed by Martin Steinkasseer!
-
-## Updates
-
-Added sound effects for warp drive. ( TNG / TOS sounds at this moment ) 
-
-To enable audio autoplay, please refer to your browser's settings to allow 
-the hosted version via adresse to automatically play sound.
-
-## Background audio autoplay feature
-
-How to enable background audio, is easy as it should be.
-
-For example :
-
-    Microsoft Edge for example use the three dots on the top of your window,
-    search for "audio" and allow 
-    localhost (that's your system) to play game background audio automatically.
+The project also served as an opportunity to experiment with combining graphics, audio, and gameplay systems inside a lightweight browser environment while improving my understanding of frontend architecture and event-driven programming.
