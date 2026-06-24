@@ -17,8 +17,8 @@ class StaticLoader {
         this.images[4] = new SetImage(graphicTable.remastered, { x: 0, y: 0, width: 250, height: 80 });
 
         // planets
-        this.images[5] = new SetImage(graphicTable.planet1, { x: 0, y: 0, width: 200, height: 200 });
-        this.images[6] = new SetImage(graphicTable.planet1, { x: 1000, y: 350, width: 100, height: 100 });
+        this.images[5] = new SetImage(graphicTable.planet1, { x: 100, y: 100, width: 200, height: 200 });
+        this.images[6] = new SetImage(graphicTable.planet1, { x: 1070, y: 420, width: 100, height: 100 });
         this.images[7] = new SetImage(graphicTable.planet1, { x: 1300, y: 450, width: 150, height: 150 });
 
         // klingons
@@ -73,9 +73,9 @@ class StaticLoader {
     //             image.draw();
 
     //             if ( i > 14 ) {
-    //                 // image.setPosition(image.getX() - this.speed,image.getY());
+    //                 image.setPosition(image.getX() - this.speed,image.getY());
 
-    //                 // alert(`${i} = X = ${image.getX()} Y = ${image.getY()}`);
+    //                 alert(`${i} = X = ${image.getX()} Y = ${image.getY()}`);
     //             }
 
     //             this.speed += 0.25;

@@ -1,4 +1,3 @@
-import React from 'react'
 import { gameSettings } from '../configuration/Configuration';
 
 const Canvas = () => {

@@ -275,6 +275,7 @@ class Game {
         }
 
         // handle keyboard events
+        
         if (keyEvents.keyPressed) {
             switch (keyEvents.keyCode) {
                 case keyTable.RKey:
@@ -380,8 +381,9 @@ class Game {
         const buttons = document.getElementsByTagName('button');
 
         for (var i = 0; i < buttons.length; i++) {
-            buttons[i].style.setProperty('z-index', '-1');
-            buttons[i].setAttribute('disabled', 'disabled');
+            buttons[i].style.setProperty('z-index', '0');
+            buttons[i].hidden = true;
+            // buttons[i].setAttribute('disabled', 'disabled');
         }
 
         document.getElementById('version')?.style.setProperty('z-index', '-1');

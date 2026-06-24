@@ -17,8 +17,6 @@ import {
     buttonSettings
 } from './library/configuration/Configuration';
 
-import './library/css/App.css';
-
 interface Props {
     settings?: any;
 };

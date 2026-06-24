@@ -1,6 +1,7 @@
 import { Canvas } from './Canvas';
 import { SetImage } from '../classes/SetImage';
 import { Tools } from '../classes/Tools';
+import "../css/HowToPlay.css";
 
 import {
     gameSettings,
@@ -9,8 +10,6 @@ import {
     soundSettings,
     buttonSettings
 } from '../configuration/Configuration';
-
-import '../css/HowToPlay.css';
 
 const HowToPlay = () => {
     let playOnced: boolean = false;
