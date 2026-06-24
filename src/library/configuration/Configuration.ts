@@ -95,7 +95,7 @@ const gameSettings = {
     'version': '0.0.2',
     'build': '62426',
     'showHUD': true,
-    'mouseEnabled': true,
+    'mouseEnabled': false,
     'noEnemies': false,
     'maxWidth': window.screen.width,
     'maxHeight': window.screen.height,

@@ -85,7 +85,7 @@ const About = () => {
                 <br />
                 <p> STAR TREK AND ITS REGISTERED TRADEMARKS BELONGS TO PARAMOUNT STUDIOS </p>
             </div>
-            <div className='about-button-container'>
+            <div className='button-container'>
                 <button
                     onMouseMove={onHandleMouseMove}
                     onClick={onHandleMouseClick}> BACK TO BRIEFING </button>

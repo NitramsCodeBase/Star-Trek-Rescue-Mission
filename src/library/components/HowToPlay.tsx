@@ -67,6 +67,20 @@ const HowToPlay = () => {
         window.location.reload();
     }
 
+    const showMouseControls = () => {
+        if(!gameSettings.mouseEnabled) 
+            return;
+
+        return <>
+            <p className='p-underline'> MOUSE CONTROLS: </p>
+            <p> MOUSE UP/DOWN : MOVES UP OR DOWNWARDS THE ENTERPRISE </p>
+            <p> LEFT BUTTON   : SHOTS THE PHASER </p>
+            <p> MIDDLE BUTTON : ACTIVATES THE WARP DRIVE </p>
+            <p> RIGHT BUTTON  : SHOT A PHOTON TORPEDO TO ITS TARGET </p>
+            <p> MOUSEWHEEL    : TO INCREASE/DECREASE IMPULSE SPEED </p>
+        </>
+    }
+
     return (
         <div className='About'>
             <Canvas />
@@ -74,26 +88,18 @@ const HowToPlay = () => {
                 <h1> HOW TO PLAY STAR TREK RESCUE MISSION </h1>
             </div>
             <div className='article-container'>
-                <p></p>
-                <p className='p-underline'> MOUSE CONTROLS: </p>
-                <p></p>
-                <p> MOUSE UP/DOWN : MOVES UP OR DOWNWARDS THE ENTERPRISE </p>
-                <p> LEFT BUTTON   : SHOTS THE PHASER </p>
-                <p> MIDDLE BUTTON : ACTIVATES THE WARP DRIVE </p>
-                <p> RIGHT BUTTON  : SHOT A PHOTON TORPEDO TO ITS TARGET </p>
-                <p> MOUSEWHEEL    : TO INCREASE/DECREASE IMPULSE SPEED </p>
-                <p></p>
+                {showMouseControls()}
                 <p className='p-underline'> KEYBOARD CONTROLS: </p>
-                <p></p>
                 <p> W/S           : MOVES UP OR DOWNWARDS THE ENTERPRISE</p>
-                <p> SPACEBAR      : SHOTS THE PHASER </p>
+                <p> A/D           : TO INCREASE/DECREASE IMPULSE SPEED</p>
                 <p> E             : ACTIVATES THE WARP DRIVE </p>
+                <p> SPACEBAR      : SHOTS THE PHASER </p>
                 <p> X             : SHOT A PHOTON TORPEDO TO ITS TARGET </p>
                 <p> 1, 2, 3, 4    : TO INCREASE/DECREASE IMPULSE SPEED </p>
+                <p> 5 TO BACKSPACE: TO SET TRAVEL DISTANCE</p>
                 <p> ^             : TO IMMEDIATELY STOP THE ENTERPRISE </p>
-                <p></p>
             </div>
-            <div className='about-button-container'>
+            <div className='button-container'>
                 <button
                     onMouseMove={onHandleMouseMove}
                     onClick={onHandleMouseClick}> BACK TO BRIEFING </button>
