@@ -81,7 +81,42 @@ class Tools {
         if (context) {
             context.fillStyle = gameSettings.hud.fontcolor;
             context.font = `italic ${gameSettings.hud.fontsize} Trek`;
-            context.fillText(`WARP SPEED SET TO ${speed}`, 570, positionY);
+
+            let distance:string = '';
+
+            switch(speed)
+            {
+                case 1: 
+                    distance = '1';
+                    break;
+                case 2:
+                    distance = '1';
+                    break;
+                case 3:
+                    distance = '2';
+                    break;
+                case 4:
+                    distance = '3';
+                    break;
+                case 5:
+                    distance = '4';
+                    break;
+                case 6:
+                    distance = '5';
+                    break;
+                case 7:
+                    distance = '6';
+                    break;
+                case 8: 
+                    distance = '8';
+                    break;
+                case 9:
+                    distance = '11';
+                    break;
+            }
+
+
+            context.fillText(`TRAVEL DISTANCE ${distance} GALAXIES`, 570, positionY);
         }
     }
 

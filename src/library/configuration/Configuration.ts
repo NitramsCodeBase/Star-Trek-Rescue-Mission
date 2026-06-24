@@ -94,7 +94,7 @@ const gameSettings = {
     'randomEnemyApproaches': 0.75,
     'version': '0.0.2',
     'build': '62426',
-    'showHUD': false,
+    'showHUD': true,
     'mouseEnabled': true,
     'noEnemies': false,
     'maxWidth': window.screen.width,

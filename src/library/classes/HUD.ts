@@ -54,11 +54,11 @@ class HUD {
             });
 
             if (counted !== 0) {
-                Tools.printMessage(830, positionY,
+                Tools.printMessage(950, positionY,
                     `LEFT ENEMIES ${counted}`, fontsize, fontcolor);
             }
             else {
-                Tools.printMessage(830, positionY,
+                Tools.printMessage(950, positionY,
                     `NO ENEMIES DETECTED!`, fontsize, fontcolor);
             }
 
