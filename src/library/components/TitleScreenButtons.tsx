@@ -38,7 +38,7 @@ const TitleScreenButtons = ({ onClickEvent, onMouseMoveEvent }: Props) => {
         <div className='button-container'>
             {buttons.map((button, index) => {
 
-                if (!showSettings && index === 4) 
+                if (!showSettings && index === 4 || index == 3) 
                     return;
 
                 const buttonTag = `button-${index}`;

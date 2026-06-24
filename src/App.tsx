@@ -98,6 +98,8 @@ const App = ({ settings }: Props) => {
             }
 
             case 'quitmission': {
+                // code here
+                
                 break;
             }
 
