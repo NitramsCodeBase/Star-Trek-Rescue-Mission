@@ -60,9 +60,9 @@ class Game {
     public start = (): void => {
         soundTable.theme.stop(true);
         soundTable.idle.loop().setVolume(soundSettings.backgroundVolume).play();
-        Tools.hideCursor();
-        Tools.switchToFullscreen();
+        Tools.showCursor();
         this.removeButtonElements();
+        Tools.switchToFullscreen();
     }
 
     public showHighScores = (): void => {

@@ -25,6 +25,10 @@ const TitleScreenButtons = ({ onClickEvent, onMouseMoveEvent }: Props) => {
             title: 'HOW TO PLAY'
         },
         {
+            name: 'quitmission',
+            title: 'QUIT THE MISSION',
+        },
+        {
             name: 'settings',
             title: 'SETTINGS'
         }
@@ -34,7 +38,7 @@ const TitleScreenButtons = ({ onClickEvent, onMouseMoveEvent }: Props) => {
         <div className='button-container'>
             {buttons.map((button, index) => {
 
-                if (!showSettings && index === 3) 
+                if (!showSettings && index === 4) 
                     return;
 
                 const buttonTag = `button-${index}`;

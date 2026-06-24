@@ -20,7 +20,7 @@ body {
 }
 
 .showTOSCursor {
-    cursor: url('../../../public/ico/TOS.cur'), auto;
+    cursor:url('../assets/tos.cur'),auto;
 }
 
 .version-label {
@@ -66,6 +66,7 @@ body {
     font-style: italic;
     font-weight: bolder;
     transition: 0.25s;
+    cursor:url('../assets/tos.cur'),auto;
 }
 
 /* canvas */

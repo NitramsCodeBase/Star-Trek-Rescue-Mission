@@ -69,7 +69,7 @@ const About = () => {
     }
 
     return (
-        <div className='About'>
+        <div className='About showTOSCursor'>
             <Canvas />
             <div className='headline'>
                 <h1> ABOUT STAR TREK RESCUE MISSION REMASTERED </h1>

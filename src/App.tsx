@@ -97,6 +97,10 @@ const App = ({ settings }: Props) => {
                 break;
             }
 
+            case 'quitmission': {
+                break;
+            }
+
             case 'settings': {
                 Tools.renderComponent(<Settings />);
                 break;
@@ -119,7 +123,7 @@ const App = ({ settings }: Props) => {
         alert(JSON.stringify(settings));
 
     return <>
-        <div className='Game hideTOSCursor'>
+        <div className='Game showTOSCursor'>
             <Canvas />
             <TitleScreenButtons
                 onMouseMoveEvent={onHandleMouseMoveEvnet}

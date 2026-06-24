@@ -82,7 +82,7 @@ const HowToPlay = () => {
     }
 
     return (
-        <div className='About'>
+        <div className='About showTOSCursor'>
             <Canvas />
             <div className='headline'>
                 <h1> HOW TO PLAY STAR TREK RESCUE MISSION </h1>
